@@ -28,6 +28,14 @@ The order matters: later steps read the outputs of earlier ones, and `analysis.p
 `analysis.py` and `analysis2.py` load every partition at once and need about 8 GB of memory.
 Comments in the code are partly in Chinese.
 
+## Additional tables and figures
+
+`additional_material/Additional_tables_and_figures.docx` holds the tables and figures that are not part of the article
+(the journal accepts no supplementary material): validation of the files against the official DATASUS tabulation,
+selection of decedents, results by year, age, diagnosis, state and hospital, deaths in hospitals without ICU billing,
+ICU resources, distance by condition, and sensitivity analyses. They are produced by `exhibits.py` from the same
+outputs as the article's tables and figures; their labels (Table S1-S8, Figure S1-S7) are those of the generating code.
+
 ## Data
 
 - SIH/SUS reduced admission files (RD), DATASUS, Ministry of Health of Brazil, read from healthbr-data
